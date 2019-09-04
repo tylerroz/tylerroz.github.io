@@ -36,7 +36,7 @@ Primary use:  Vcard / Personal / CV / Resume / Portfolio
   color: #327ea7;
 }
 .color2 {
-  color: #0D161A;
+  color: #459ac7;
 }
 .color3 {
   color: #17B890;
@@ -130,7 +130,7 @@ a:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #0D161A;
+  background: #459ac7;
   z-index: -1;
 }
 .btn-default:hover {
@@ -155,12 +155,12 @@ a:focus {
 }
 .btn-default2 {
   font-size: 9px;
-  background: #0D161A;
+  background: #459ac7;
   font-weight: lighter;
 }
 .btn-nobg {
   background-color: transparent;
-  border: 1px solid #0D161A;
+  border: 1px solid #459ac7;
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -172,10 +172,10 @@ a:focus {
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #0D161A;
+  color: #459ac7;
 }
 .btn-nobg:hover {
-  background: #0D161A;
+  background: #459ac7;
   color: #ffffff;
 }
 iframe {
@@ -566,7 +566,7 @@ iframe {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #0D161A;
+  background: #459ac7;
   z-index: -1;
 }
 .main-menu-list a:hover {
@@ -580,7 +580,7 @@ iframe {
 }
 .main-menu-list a.menuActive {
   text-decoration: none;
-  background: #0D161A;
+  background: #459ac7;
   padding-left: 15px;
 }
 /* ==========================================================
@@ -626,7 +626,7 @@ iframe {
   font-size: 36px;
   letter-spacing: -2px;
   margin-bottom: 8px;
-  color: #0D161A;
+  color: #459ac7;
 }
 .profile-subtitle {
   text-align: center;
@@ -668,13 +668,13 @@ iframe {
 ! 09. Content
 ========================================================== */
 .section-title {
-  color: #0D161A;
+  color: #459ac7;
   text-transform: uppercase;
   font-size: 22px;
   line-height: 26px;
   font-weight: bold;
   margin-top: 0;
-  border-bottom: 1px solid #0D161A;
+  border-bottom: 1px solid #459ac7;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
@@ -697,7 +697,7 @@ iframe {
 }
 .section-item-title-1 {
   font-weight: bold;
-  color: #0D161A;
+  color: #459ac7;
   color: #333;
   padding-left: 0;
   margin-left: 0;
@@ -709,7 +709,7 @@ iframe {
 }
 .section-item-title-2 {
   font-weight: bold;
-  color: #0D161A;
+  color: #459ac7;
   color: #333;
   padding-left: 0;
   margin-left: 0;
@@ -718,7 +718,7 @@ iframe {
   margin: 0;
   margin-bottom: 8px;
   letter-spacing: -1px;
-  border-bottom: 1px dotted #0D161A;
+  border-bottom: 1px dotted #459ac7;
   padding-bottom: 5px;
   font-size: 15px;
 }
@@ -902,7 +902,7 @@ iframe {
   background-color: #ffffff;
 }
 .owl-controls-wrapper2 .owl-controls .owl-page.active {
-  background: #0D161A;
+  background: #459ac7;
 }
 .owl-controls-wrapper2 .owl-pagination,
 .owl-controls-wrapper2 .owl-buttons {
@@ -921,7 +921,7 @@ iframe {
   font-size: 14px;
 }
 .owl-controls-wrapper2 .owl-buttons > div:hover {
-  color: #0D161A;
+  color: #459ac7;
 }
 .owl-controls-wrapper2 .owl-mtop .owl-wrapper-outer {
   padding-top: 40px;
@@ -953,13 +953,13 @@ iframe {
   opacity: 0.8;
 }
 .owl-controls-wrapper2 .owl-controls .owl-page.active {
-  background: #0D161A;
+  background: #459ac7;
 }
 .owl-pagination .owl-page span {
-  background: #0D161A;
+  background: #459ac7;
 }
 .owl-pagination .active span {
-  background: #0D161A !important;
+  background: #459ac7 !important;
 }
 /* ==========================================================
 ! 12. SECTION: SKILLS
@@ -998,7 +998,7 @@ iframe {
   width: 20%;
 }
 .progress-bar-2 {
-  background: #0D161A;
+  background: #459ac7;
 }
 .progress-bar-3 {
   background: #17B890;
@@ -1137,13 +1137,13 @@ span.see-more {
   line-height: 26px;
   padding-bottom: 0;
   margin-bottom: 6px;
-  color: #0D161A;
-  border-bottom: 1px dotted #0D161A;
+  color: #459ac7;
+  border-bottom: 1px dotted #459ac7;
   padding-bottom: 4px;
   font-weight: bold;
 }
 .blog-item-title a {
-  color: #0D161A;
+  color: #459ac7;
 }
 .blog-item-title a:hover {
   text-decoration: none;
@@ -1157,7 +1157,7 @@ span.see-more {
 }
 .blog-item-title-hr {
   border: 0;
-  border-top: 3px solid #0D161A;
+  border-top: 3px solid #459ac7;
   width: 20%;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -1202,7 +1202,7 @@ span.see-more {
   transition: all 0.2s;
 }
 .section-pagination a:hover {
-  background: #0D161A;
+  background: #459ac7;
   text-decoration: none;
 }
 /* ==========================================================
@@ -1258,19 +1258,19 @@ span.see-more {
   line-height: 26px;
   padding-bottom: 0;
   margin-bottom: 6px;
-  border-bottom: 1px dotted #0D161A;
+  border-bottom: 1px dotted #459ac7;
   padding-bottom: 4px;
   font-size: 24px;
   line-height: 28px;
   font-weight: bold;
-  color: #0D161A;
-  border-bottom: 1px solid #0D161A;
+  color: #459ac7;
+  border-bottom: 1px solid #459ac7;
   padding-bottom: 8px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 .blog-single-title a {
-  color: #0D161A;
+  color: #459ac7;
 }
 .blog-single-title a:hover {
   text-decoration: none;
@@ -1406,7 +1406,7 @@ span.see-more {
   padding: 10px 20px;
 }
 .modal-content .modal-title {
-  color: #0D161A;
+  color: #459ac7;
   font-size: 22px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 5px;
