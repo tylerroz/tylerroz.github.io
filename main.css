@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(40, 41, 53, 0.99);
+  color:  rgb(255, 252, 252, 0.85);
+  line-height: 140%;
+}
+
+.social-link {
+  color: rgb(130, 219, 235);
+}
+
+.var-highlight{
+  color: #fddc57;
+}
+.string-highlight{
+  color: rgba(255, 145, 81, 0.9);
+}
+
+#typewritertext{
+    font-size: 1em;
+    margin: 0;
+    font-family: "Courier New";
+
+    &:after{
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
