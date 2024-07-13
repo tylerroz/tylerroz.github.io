@@ -1,7 +1,6 @@
 body {
   background-color: rgba(40, 41, 53, 0.99);
   color:  rgb(255, 252, 252, 0.85);
-  line-height: 140%;
 }
 
 .social-link {
@@ -16,7 +15,7 @@ body {
 }
 
 #typewritertext{
-    font-size: 1em;
+    font-size: 1.5vw;
     margin: 0;
     font-family: "Courier New";
 
@@ -24,6 +23,63 @@ body {
       content: "|";
       animation: blink 500ms linear infinite alternate;
     }
+}
+
+/* Media Queries for different screen sizes */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 2vw;
+  }
+
+  #typewritertext {
+    font-size: 2em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 2.5vw;
+  }
+
+  #typewritertext {
+    font-size: 1.75em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 2vw;
+  }
+
+  #typewritertext {
+    font-size: 1.5em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 1.5vw;
+  }
+
+  #typewritertext {
+    font-size: 1.25em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 1vw;
+  }
+
+  #typewritertext {
+    font-size: 1em;
+  }
 }
 
 @-webkit-keyframes blink{
