@@ -5,7 +5,7 @@ function setupTypewriter(t) {
     tag = "",
     writingTag = false,
     tagOpen = false,
-    typeSpeed = 40,
+    typeSpeed = 20,
     tempTypeSpeed = 0;
   var type = function () {
 
@@ -33,12 +33,12 @@ function setupTypewriter(t) {
         tempTypeSpeed = 0;
       }
       else {
-        tempTypeSpeed = (Math.random() * typeSpeed) + 40;
+        tempTypeSpeed = (Math.random() * typeSpeed) + 26;
       }
       t.innerHTML += HTML[cursorPosition];
     }
     if (writingTag === true && HTML[cursorPosition] === ">") {
-      tempTypeSpeed = (Math.random() * typeSpeed) + 40;
+      tempTypeSpeed = (Math.random() * typeSpeed) + 26;
       writingTag = false;
       if (tagOpen) {
         var newSpan = document.createElement("span");
